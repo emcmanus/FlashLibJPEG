@@ -1,0 +1,10 @@
+# Configure:
+
+LDFLAGS="-emit-llvm" CFLAGS="-emit-llvm" ./configure --prefix="$ALCHEMY_HOME/usr/local/" enable_shared="no" enable_static="yes"
+
+
+# Build:
+
+make all
+
+# jpeg.l.bc is written to .libs/
