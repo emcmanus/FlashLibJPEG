@@ -8,11 +8,9 @@ A Flash port of libJPEG.
 
 [http://www.twitter.com/emcmanus](http://www.twitter.com/emcmanus)
 
-**More documentation in `/docs`**
 
 
-## License ##
+## Documentation ##
 
-## Performance ##
+**See `/docs`**
 
-## Important Locations ##

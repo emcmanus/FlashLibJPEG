@@ -7,4 +7,11 @@ LDFLAGS="-emit-llvm" CFLAGS="-emit-llvm" ./configure --prefix="$ALCHEMY_HOME/usr
 
 make all
 
-# jpeg.l.bc is written to .libs/
+# jpeg.l.bc is written to .libs/ -- at any point after building you'll need to copy this file to $ALCHEMY_HOME/usr/local/lib/
+
+
+# Install:
+
+make install
+
+# You may then want to manually remove the .a and .la files added to $ALCHEMY_HOME/usr/local/lib/ as they're not valid alchemy library files
